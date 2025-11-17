@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class HypercubeGenerator {
 
     static String FILE_NAME = "src/labs/lab5/hypercube_";
-    static int N = 14; // степень гиперкуба
+    static int N = 6; // степень гиперкуба
 
     // Пишем построчно, без хранения всей матрицы
     public static void generateHypercubeToFile(int n, String filename) {

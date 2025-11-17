@@ -1,3 +1,4 @@
+import labs.Lab4;
 import labs.lab5.Lab5;
 
 public class Main {

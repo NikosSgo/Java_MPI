@@ -6,11 +6,11 @@ import java.util.*;
 
 public class Lab5 {
     static final int MASTER = 0;
-    static final String fileName = "src/labs/lab5/hypercube_12_size.txt";
+    static final String fileName = "src/labs/lab5/hypercube_10_size.txt";
 
     public static void main(String[] args) {
         MPI.Init(args);
-        long globalStart = System.currentTimeMillis(); // <--- начало общего времени
+        long globalStart = System.currentTimeMillis();
 
         int rank = MPI.COMM_WORLD.Rank();
         int size = MPI.COMM_WORLD.Size();
